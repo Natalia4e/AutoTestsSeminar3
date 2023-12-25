@@ -14,6 +14,7 @@ public class ForecastsTenDaysTest extends AccuweatherAbstractTest {
         // Изменено на 10day в запросе URL
         Weather weather = given().queryParam("apikey", getApiKey()).pathParam("locationKey", 50)
                 .when().get(getBaseUrl() + "/forecasts/v1/daily/10day/{locationKey}")
+            //у Вас тут будет ошибка 401, т.к. ключ, который мы используем не даёт воз-ти запрашивать погоду за 10 и 15 дней
                 .then().statusCode(200).time(lessThan(2000L))
                 .extract().response().body().as(Weather.class);
         // Изменено условие ожидания на 10 дней
