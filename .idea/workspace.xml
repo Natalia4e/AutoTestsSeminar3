@@ -5,33 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3826ab-49a4-40b1-9cb8-f7bf8515c0fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar/accuweather/location/AdministrativeArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar/accuweather/location/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar/accuweather/location/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar/accuweather/weather/DailyForecast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar/accuweather/weather/Day.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar/accuweather/weather/Headline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar/accuweather/weather/Maximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar/accuweather/weather/Minimum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar/accuweather/weather/Night.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar/accuweather/weather/Temperature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar/accuweather/weather/Weather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/accuweather/AccuweatherAbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/accuweather/ForecastsFiveDaysTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/accuweather.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/accuweather_demo.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/accuweather_home.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/accuweather_seminar.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/demo_spoonacular.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/home_spoonacular.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/seminar_spoonacular.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/spoonacular.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/accuweather/ForecastOneDayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/accuweather/ForecastsTenDaysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/accuweather/LocationAutocompleteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,16 +23,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2ZPCEYvMpY4FdIKZl0wgbcfaGV8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -66,7 +43,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Владислав/IdeaProjects/AutoTestsSeminar3/src/main/java"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/chena/AutoTestsSeminar3",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -78,7 +59,7 @@
       <recent name="accuweather" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ForecastsFiveDaysTest.testgetLocations">
+  <component name="RunManager">
     <configuration name="ForecastsFiveDaysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestsSeminar3" />
       <extension name="coverage">
