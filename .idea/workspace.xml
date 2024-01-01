@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3826ab-49a4-40b1-9cb8-f7bf8515c0fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/accuweather/ForecastOneDayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/accuweather/ForecastsTenDaysTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/accuweather/LocationAutocompleteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/accuweatherWithWireMock/AccuweatherWireMockWithRestAssuredAbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/accuweatherWithWireMock/ForecastOneDayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/accuweatherWithWireMock/ForecastsFiveDaysTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,29 +29,30 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2ZPCEYvMpY4FdIKZl0wgbcfaGV8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/chena/AutoTestsSeminar3",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/chena/AutoTestsSeminar3&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chena\AutoTestsSeminar3" />
       <recent name="C:\Users\Владислав\IdeaProjects\AutoTestsSeminar3\src\main\java" />
       <recent name="C:\Users\Владислав\IdeaProjects\AutoTestsSeminar3\src\test" />
     </key>
@@ -59,9 +60,9 @@
       <recent name="accuweather" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ForecastsFiveDaysTest">
     <configuration name="ForecastsFiveDaysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutoTestsSeminar3" />
+      <module name="AutoTestsHW3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="accuweather.*" />
@@ -70,6 +71,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="accuweather" />
       <option name="MAIN_CLASS_NAME" value="accuweather.ForecastsFiveDaysTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,10 +109,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="AutoTestsSeminar3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="AutoTestsSeminar3" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ForecastsFiveDaysTest.testgetLocations" />
         <item itemvalue="JUnit.ForecastsFiveDaysTest" />
+        <item itemvalue="JUnit.ForecastsFiveDaysTest.testgetLocations" />
         <item itemvalue="JUnit.ForecastsFiveDaysTest.testGetResponse" />
       </list>
     </recent_temporary>
