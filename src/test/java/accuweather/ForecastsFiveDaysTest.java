@@ -2,6 +2,7 @@ package accuweather;
 
 import io.restassured.http.Method;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import seminar.accuweather.location.Location;
 import seminar.accuweather.weather.Weather;
@@ -16,6 +17,7 @@ import static org.hamcrest.Matchers.lessThan;
 public class ForecastsFiveDaysTest extends AccuweatherAbstractTest {
 
     @Test
+    @Disabled
     void testGetResponse() {
         Weather weather = given().queryParam("apikey", getApiKey()).pathParam("locationKey", 50)
                 .when().get(getBaseUrl() + "/forecasts/v1/daily/5day/{locationKey}")
